@@ -8,3 +8,9 @@ sentencepiece
 accelerate
 sse-starlette
 streamlit>=1.24.0
+pinecone-client
+openai
+tiktoken
+langchain
+huggingface_hub
+sentence-transformers
