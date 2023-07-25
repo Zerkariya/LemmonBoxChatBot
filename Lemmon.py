@@ -56,7 +56,7 @@ def retrieve(input_query, embeddings):
 
     return prompt
 
-llm =  chatGLM(model_name="chatglm2")
+llm =  chatGLM(model_name="THUDM/chatglm-6b")
 
 index_name = "demo"
 if index_name not in pinecone.list_indexes():
